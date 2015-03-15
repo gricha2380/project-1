@@ -1,0 +1,93 @@
+/* Import Google fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+
+
+/* Base styling */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background-color: #133839;
+}
+
+/* Text formatting */
+h1, h2, h3, h4 {
+	margin-top: 10px;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 46px;
+}
+
+h2 {
+	color: #fff;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+/* Links */
+
+a {transition: .5s all;}
+
+.text-link {
+	color: #1d6464;
+}
+
+.text-link:hover {
+	color: #fff;
+}
+
+.feature-link-title a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.feature-link-title a:hover {
+	color: #ddd;
+}
+
+.feature-link-title a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.feature-image-link img:hover {
+	opacity: .8;
+}
+
+/* Header elements*/
+.logo {
+	max-width: 100px;
+}
+
+/* Body elements */
+.main-container {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.top-row {
+	padding-bottom: 30px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 991px) {
+    .col-logo,
+    .col-title-head {
+        text-align: center;
+    }
+
+    .row-featured-work img {
+    	margin: auto;
+    }
+
+    .row-featured-work-title {
+    	text-align: center;
+    }
+
+    .col-img-banner-holder {
+		padding: 0;
+	}
+}
